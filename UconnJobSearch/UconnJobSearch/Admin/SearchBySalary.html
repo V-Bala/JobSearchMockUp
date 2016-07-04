@@ -1,0 +1,32 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN"
+"http://www.w3.org/TR/html4/strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>HTML</title>
+		<meta name="author" content="Vijay" />
+		<!-- Date: 2015-04-26 -->
+		
+		<link rel="stylesheet" type="text/css" 
+		href="search.css">
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
+		</script>
+	</head>
+	<body>
+		<h4>Search by Salary and Job Title</h4>
+		 <form name="search" action="SearchBySalary.php" method="post">
+		 	<label for='title' >Job Title</label>
+		 	<input type="text" name="title">
+		 	<p>(ex: Engineer, Assistant)</p>
+		 	<label for='salary' >Salary</label>
+		 	<input type="text" name="salary">
+		 	<p>(ex: 100000, 15)</p>
+		 	<input type="submit" name="search" value="Search"/>
+		 </form>
+			 <br />
+		 <br />
+		 <input type="button" name="back" value="Return to Administrator Page" 
+onclick="window.location.href='AdminMainPage.php'"/>
+	</body>
+</html>

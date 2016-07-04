@@ -1,0 +1,125 @@
+html, body{
+	margin:0px;
+	padding:0px;
+	height: 100%;
+}
+#header{
+	margin-top:0px;
+	font-family:Arial;
+	overflow:hidden;
+	background-color: navy;
+	border-bottom: 5px solid #000000;
+	color: white;
+	text-indent: 2.5%;
+	height: 10%;
+	width: 100%;
+	float:left;
+}
+#header img{
+	position:absolute;
+	top: 10px;
+	right: 10px;
+	vertical-align: middle;
+}
+.push {
+	height: 100px;
+}
+#footer{
+	clear:both;
+	font-family:Arial;
+	background-color: #000000;
+	color: white;
+	text-align:center;
+	height: 60px;
+}
+#footer h5, h6 {
+	padding: 0px;
+	margin: 0px;
+}
+.wrapper {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+.login {
+	font-family:Arial;
+	margin-left:auto;
+	margin-right:auto;
+	background-color:white;
+	width: 250px;
+	text-align:center;
+}
+.login label {
+	text-align:center;
+	width: 50%;
+}
+.nav {
+	float:none;
+	display:inline-block;
+	width: 100%;
+	text-align: center;
+	background-color: #DCDCDC;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	border-bottom: 1px solid orange;
+}
+.nav li{
+	text-align:center;
+	display: inline-block;
+}
+.nav li a{
+	width: 100px;
+	color: navy;
+	display: block;
+	border-right: 1px solid #000000;
+	border-left: 1px solid #000000;
+	padding: 8px;
+	text-decoration: none;
+}
+.nav li a:hover{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.nav li a.selected{
+	color:#FFFFFF;
+	background-color:#000000;
+}
+.left-jobs {
+	width:50%;
+	float:left;
+}
+.left-jobs table{
+	width: 100%;
+}
+.left-jobs table, th, td{
+	border: 1px solid #000000;
+}
+.right-jobs {
+	width:50%;
+	float:right;
+}
+.right-jobs p, .left-jobs p{
+	padding: 0;
+	margin: 0;
+}
+.left-jobs h5, .right-jobs h5{
+	text-align: center;
+	padding:0;
+	margin:0;
+}
+.left-jobs a, .right-jobs a, .left-jobs a:visited, .right-jobs a:visited{
+	text-decoration:none;
+	color: navy;
+}
+legend {
+	margin-left: 40px;
+	font-size: 20px;
+	text-align: left;
+}
+fieldset {
+	width: 100%;
+	clear:both;
+	padding: 5px;
+}
